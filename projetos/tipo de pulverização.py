@@ -1,3 +1,4 @@
+
 print("((( tipos de pulverizaçao ))) \n 1- erva daninhas \n 2 - gafanhotos \n 3 - Broca \n 4 - Todos")
 tipo = int(input("Tipo: ")) 
 acres = float(input("Total de acres: "))
@@ -12,3 +13,4 @@ elif tipo == 4:
 else:
     raise ValueError("invalido")
 print(f"{preco} R$")
+>>>>>>> d284460155be172dbacb94c39cdc1629b0230eee
